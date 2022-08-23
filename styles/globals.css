@@ -1,26 +1,32 @@
-html,
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,500;0,600;0,800;0,900;1,500;1,800&family=Open+Sans&display=swap");
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+  .container {
+    @apply max-w-[1188px] px-5 mx-auto;
+  }
+
+  .gradient_border {
+    @apply border-transparent;
+    background: linear-gradient(#040503, #040503) padding-box,
+      linear-gradient(117.35deg, #fff24d 11.12%, #8743cf 88.16%) border-box;
+  }
+  .title_lg {
+    @apply text-[36px] leading-[44px] font-montserrat italic font-extrabold;
+  }
+  .body_text {
+    @apply text-[16px] leading-[150%] font-open-sans font-normal;
+  }
+}
+
+@layer utilities {
+  .gradient {
+    background: linear-gradient(117.35deg, #fff24d 11.12%, #8743cf 88.16%);
+  }
+}
+
 body {
-  padding: 0;
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
-    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
-}
-
-a {
-  color: inherit;
-  text-decoration: none;
-}
-
-* {
-  box-sizing: border-box;
-}
-
-@media (prefers-color-scheme: dark) {
-  html {
-    color-scheme: dark;
-  }
-  body {
-    color: white;
-    background: black;
-  }
+  @apply bg-dark text-white;
 }
