@@ -21,7 +21,7 @@ function DekstopNav({ onClick }) {
       <div className="flex justify-end md:inline-block pr-6 md:pr-0 mt-4 mb-8 md:m-0">
         <button
           onClick={onClick}
-          className="bg-primary text-black px-[18px] py-[14px] text-xs font-semibold leading-[15px] rounded-md uppercase"
+          className="bg-primary font-montserrat text-black px-[18px] py-[14px] text-xs font-semibold leading-[15px] rounded-md uppercase"
         >
           Connect wallet
         </button>

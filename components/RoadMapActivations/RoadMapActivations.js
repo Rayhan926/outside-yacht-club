@@ -42,7 +42,7 @@ function RoadMapActivations() {
             {roadMapSectionData.map(({ lineThrow, percentage, text }, i) => {
               return (
                 <li key={i} className="flex items-start gap-11">
-                  <p className="text-primary text-[13px] font-semibold font-montserrat italic leading-[150%]">
+                  <p className="text-primary text-[13px] font-normal font-montserrat italic leading-[150%]">
                     {percentage}%
                   </p>
                   <p

@@ -19,14 +19,17 @@ function RiseOfOutside() {
           </p>
         </div>
 
-        <div className="md:max-w-[420px]">
-          <Image
-            quality={100}
-            src="/img/rise_of_outside_image.png"
-            width={420}
-            height={395}
-            alt="rise_of_outside_image"
-          />
+        <div className="relative">
+          <div className="absolute top-1/2 left-1/2 -translate-y-1/2 -translate-x-1/2 w-[300px] aspect-square rounded-full bg-primary blur-[313px]"></div>
+          <div className="relative z-[2] md:max-w-[420px]">
+            <Image
+              quality={100}
+              src="/img/rise_of_outside_image.png"
+              width={422}
+              height={401}
+              alt="rise_of_outside_image"
+            />
+          </div>
         </div>
       </div>
     </section>

@@ -16,7 +16,7 @@ function SmartContractAddress() {
   return (
     <div className="flex justify-center">
       <div className="mb-[64px] md:my-[95px] md:py-[18px] md:px-[28px] inline-flex items-center gap-4 md:bg-[#1D1D1D] rounded">
-        <p className="leading-5 text-white text-center">
+        <p className="leading-5 text-white text-center maxxs:text-xs">
           VERIFIED SMART CONTRACT ADDRESS:{" "}
           <CopyToClipboard
             text="0xBC4CA0EdA7647A8aB7C2061c2E118A18a936f13D"
