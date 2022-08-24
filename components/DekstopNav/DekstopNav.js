@@ -3,7 +3,7 @@ import { dekstopItems } from "../../constant";
 
 function DekstopNav() {
   return (
-    <nav className="font-montserrat flex items-center gap-12 py-[23px]">
+    <nav className="font-montserrat hidden md:flex items-center gap-12">
       <ul className="flex items-center gap-12">
         {dekstopItems.map(({ text, url }, i) => (
           <li key={i} className="group">

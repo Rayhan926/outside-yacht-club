@@ -17,7 +17,7 @@
       linear-gradient(117.35deg, #fff24d 11.12%, #8743cf 88.16%) border-box;
   }
   .title_lg {
-    @apply text-[36px] leading-[44px] font-montserrat italic font-extrabold uppercase;
+    @apply md:text-[36px] text-[28px] leading-[34px] md:leading-[44px] font-montserrat italic font-extrabold uppercase;
   }
   .body_text {
     @apply text-[16px] leading-[150%] font-open-sans font-normal;

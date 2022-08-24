@@ -3,8 +3,8 @@ import React from "react";
 
 function RiseOfOutside() {
   return (
-    <section className="container mt-[145px]">
-      <div className="grid grid-cols-[581px,auto] gap-[147px]">
+    <section className="container mt-[69px] md:mt-[145px]">
+      <div className="grid grid-cols-1 md:grid-cols-[581px,auto] gap-[25px] md:gap-[147px]">
         <div className="space-y-[15px]">
           <h2 className="title_lg">
             <p>Rise of the</p> outside yach club

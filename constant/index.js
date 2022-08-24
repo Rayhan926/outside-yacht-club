@@ -100,3 +100,17 @@ export const roadMapSectionData = [
     lineThrow: false,
   },
 ];
+export const footerIcons = [
+  {
+    icon: "/img/open_sea.svg",
+    url: "#",
+  },
+  {
+    icon: "/img/twitter.svg",
+    url: "#",
+  },
+  {
+    icon: "/img/instagram.svg",
+    url: "#",
+  },
+];

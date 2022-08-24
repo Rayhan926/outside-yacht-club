@@ -3,8 +3,8 @@ import Image from "next/image";
 
 function TheSpecs() {
   return (
-    <section className="mt-[130px]">
-      <div className="container grid grid-cols-[584px,auto] gap-[172px] pb-[65px] border-b border-white/40">
+    <section className="mt-[120px] md:mt-[130px]">
+      <div className="container grid grid-cols-1 md:grid-cols-[584px,auto] gap-[43px] md:gap-[172px] pb-[65px] border-b border-white/40">
         <div className="space-y-[15px] mt-[40px]">
           <h2 className="title_lg">thE sPECS</h2>
           <p className="body_text">

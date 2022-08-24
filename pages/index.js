@@ -1,4 +1,5 @@
 import React from "react";
+import BuyAnApe from "../components/BuyAnApe/BuyAnApe";
 import Footer from "../components/Footer/Footer";
 import Header from "../components/Header/Header";
 import Hero from "../components/Hero/Hero";
@@ -16,13 +17,14 @@ const Home = () => {
       <Header />
       <Hero />
       <RiseOfOutside />
+      <BuyAnApe />
       <TheSpecs />
-      <WellcomeToTheClub />
-      <TheBathroom />
-      <RoadMapActivations />
-      <TheTeam />
-      <SmartContractAddress />
-      <Footer />
+      {/* <WellcomeToTheClub /> */}
+      {/* <TheBathroom /> */}
+      {/* <RoadMapActivations /> */}
+      {/* <TheTeam /> */}
+      {/* <SmartContractAddress /> */}
+      {/* <Footer /> */}
     </>
   );
 };
