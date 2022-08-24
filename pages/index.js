@@ -1,22 +1,29 @@
 import React from "react";
+import Footer from "../components/Footer/Footer";
+import Header from "../components/Header/Header";
+import Hero from "../components/Hero/Hero";
+import RiseOfOutside from "../components/RiseOfOutside/RiseOfOutside";
+import RoadMapActivations from "../components/RoadMapActivations/RoadMapActivations";
+import SmartContractAddress from "../components/SmartContractAddress/SmartContractAddress";
+import TheBathroom from "../components/TheBathroom/TheBathroom";
+import TheSpecs from "../components/TheSpecs/TheSpecs";
+import TheTeam from "../components/TheTeam/TheTeam";
+import WellcomeToTheClub from "../components/WellcomeToTheClub/WellcomeToTheClub";
 
 const Home = () => {
   return (
-    <div className="p-10 space-y-6">
-      <h1 className="title_lg">
-        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Porro, ut?
-      </h1>
-      <p className="body_text">
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptate
-        ratione odit asperiores eum laborum velit ea corporis repellendus,
-        optio, quia ullam eaque vel possimus fugiat. Voluptates eum saepe
-        aperiam, incidunt perspiciatis maxime blanditiis fugiat quia debitis
-        natus! Quibusdam vero optio ex rerum rem eveniet facere quam, recusandae
-        ipsam repellat sapiente.
-      </p>
-
-      <div className="w-40 h-40 gradient_border border"></div>
-    </div>
+    <>
+      <Header />
+      <Hero />
+      <RiseOfOutside />
+      <TheSpecs />
+      <WellcomeToTheClub />
+      <TheBathroom />
+      <RoadMapActivations />
+      <TheTeam />
+      <SmartContractAddress />
+      <Footer />
+    </>
   );
 };
 

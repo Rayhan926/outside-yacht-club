@@ -17,6 +17,9 @@ module.exports = {
         "dark-soft": "#1D1D1D",
         gray: "#4A4A4A",
       },
+      screens: {
+        maxmd: { max: "767px" },
+      },
     },
   },
   plugins: [],

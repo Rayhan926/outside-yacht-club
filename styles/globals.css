@@ -5,7 +5,10 @@
 
 @layer components {
   .container {
-    @apply max-w-[1188px] px-5 mx-auto;
+    @apply max-w-[1196px] px-6 mx-auto;
+  }
+  .container-lg {
+    @apply max-w-[1596px] mx-auto;
   }
 
   .gradient_border {
@@ -14,7 +17,7 @@
       linear-gradient(117.35deg, #fff24d 11.12%, #8743cf 88.16%) border-box;
   }
   .title_lg {
-    @apply text-[36px] leading-[44px] font-montserrat italic font-extrabold;
+    @apply text-[36px] leading-[44px] font-montserrat italic font-extrabold uppercase;
   }
   .body_text {
     @apply text-[16px] leading-[150%] font-open-sans font-normal;
@@ -24,6 +27,17 @@
 @layer utilities {
   .gradient {
     background: linear-gradient(117.35deg, #fff24d 11.12%, #8743cf 88.16%);
+  }
+  .dekstop_roadmap_bg {
+    background: url("/img/BG.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: top;
+  }
+  .mobile_roadmap_bg {
+    background: url("/img/road_map_bg_mobile.png");
+    background-size: "cover";
+    background-repeat: "no-repeat";
   }
 }
 
