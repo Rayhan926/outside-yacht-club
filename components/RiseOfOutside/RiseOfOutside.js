@@ -20,7 +20,13 @@ function RiseOfOutside() {
         </div>
 
         <div className="md:max-w-[420px]">
-          <img src="/img/rise_of_outside_image.png" width={420} height={395} />
+          <Image
+            quality={100}
+            src="/img/rise_of_outside_image.png"
+            width={420}
+            height={395}
+            alt="rise_of_outside_image"
+          />
         </div>
       </div>
     </section>

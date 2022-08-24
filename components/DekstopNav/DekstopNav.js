@@ -1,13 +1,14 @@
 import React from "react";
 import { dekstopItems } from "../../constant";
 
-function DekstopNav() {
+function DekstopNav({ onClick }) {
   return (
-    <nav className="font-montserrat hidden md:flex items-center gap-12">
-      <ul className="flex items-center gap-12">
+    <>
+      <ul className="flex flex-col items-end md:flex-row md:items-center gap-4 md:gap-12 pr-6 md:pr-0">
         {dekstopItems.map(({ text, url }, i) => (
           <li key={i} className="group">
             <a
+              onClick={onClick}
               href={url}
               className="uppercase leading-[15px] font-medium text-xs text-white italic duration-100 group-hover:text-primary"
             >
@@ -17,10 +18,15 @@ function DekstopNav() {
         ))}
       </ul>
 
-      <button className="bg-primary text-black px-[18px] py-[14px] text-xs font-semibold leading-[15px] rounded-md uppercase">
-        Connect wallet
-      </button>
-    </nav>
+      <div className="flex justify-end md:inline-block pr-6 md:pr-0 mt-4 mb-8 md:m-0">
+        <button
+          onClick={onClick}
+          className="bg-primary text-black px-[18px] py-[14px] text-xs font-semibold leading-[15px] rounded-md uppercase"
+        >
+          Connect wallet
+        </button>
+      </div>
+    </>
   );
 }
 

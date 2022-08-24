@@ -19,12 +19,12 @@ const Home = () => {
       <RiseOfOutside />
       <BuyAnApe />
       <TheSpecs />
-      {/* <WellcomeToTheClub /> */}
-      {/* <TheBathroom /> */}
-      {/* <RoadMapActivations /> */}
-      {/* <TheTeam /> */}
-      {/* <SmartContractAddress /> */}
-      {/* <Footer /> */}
+      <WellcomeToTheClub />
+      <TheBathroom />
+      <RoadMapActivations />
+      <TheTeam />
+      <SmartContractAddress />
+      <Footer />
     </>
   );
 };

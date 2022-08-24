@@ -3,8 +3,8 @@ import Image from "next/image";
 
 function TheBathroom() {
   return (
-    <section className="mb-[130px]">
-      <div className="container pt-[65px] grid grid-cols-[725px,auto] gap-[240px]">
+    <section className="mb-[75px] md:mb-[130px]">
+      <div className="container pt-[65px] grid grid-cols-1 md:grid-cols-[725px,auto] gap-11 md:gap-[240px]">
         <div className="space-y-[15px]">
           <h2 className="title_lg">The BATHROOM</h2>
           <p className="body_text">
@@ -20,16 +20,17 @@ function TheBathroom() {
             of crypto twitter.
           </p>
           <p className="body_text">
-            We're pretty sure it's going to be full of dicks.
+            We&apos;re pretty sure it&apos;s going to be full of dicks.
           </p>
         </div>
 
-        <div className="md:max-w-[206px]">
+        <div className="md:max-w-[206px] flex justify-center md:block">
           <Image
             src="/img/commet.png"
             alt="Commet image"
             width={206}
             height={324}
+            quality={100}
           />
         </div>
       </div>

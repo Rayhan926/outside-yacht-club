@@ -44,3 +44,7 @@
 body {
   @apply bg-dark text-white;
 }
+
+html {
+  @apply scroll-smooth;
+}

@@ -3,16 +3,16 @@ import React from "react";
 
 function TheTeam() {
   return (
-    <section>
+    <section id="team">
       <div
         style={{
           background:
             "linear-gradient(180deg, rgba(255, 242, 77, 0.69) 0%, rgba(0, 0, 0, 0) 100%)",
         }}
-        className="py-[90px] container-lg rounded-2xl"
+        className="pt-[45px] pb-[58px] md:py-[90px] container-lg md:rounded-2xl"
       >
-        <div className="container grid grid-cols-[580px,auto] gap-[176px]">
-          <div className="space-y-5 mt-[30px]">
+        <div className="container grid grid-cols-1 lg:grid-cols-[580px,auto] gap-[50px] lg:gap-[176px]">
+          <div className="space-y-5 md:mt-[30px]">
             <h2 className="title_lg">thE Team</h2>
             <div className="space-y-[15px]">
               <p className="body_text">
@@ -38,8 +38,13 @@ function TheTeam() {
             </div>
           </div>
 
-          <div className="md:max-w-[387px]">
-            <Image src="/img/the_team_image.png" width={387} height={440} />
+          <div className="max-w-[244px] mx-auto md:max-w-[387px]">
+            <Image
+              src="/img/the_team_image.png"
+              alt="the_team_image"
+              width={387}
+              height={440}
+            />
           </div>
         </div>
       </div>

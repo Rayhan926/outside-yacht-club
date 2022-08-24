@@ -1,15 +1,15 @@
 export const dekstopItems = [
   {
     text: "BUY AN APE",
-    url: "#",
+    url: "#buy-an-ape",
   },
   {
     text: "ROADMAP",
-    url: "#",
+    url: "#roadmap",
   },
   {
     text: "TEAM",
-    url: "#",
+    url: "#team",
   },
   {
     text: "Gallery",

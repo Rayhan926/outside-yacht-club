@@ -5,7 +5,10 @@ import classNames from "classnames";
 
 function RoadMapActivations() {
   return (
-    <section className="py-[103px] relative mb-[130px] font-montserrat">
+    <section
+      id="roadmap"
+      className="pt-[64px] md:py-[103px] relative mb-[50px] md:mb-[130px] font-montserrat"
+    >
       <img
         src="/img/roadmap_strokes.png"
         className="absolute top-0 left-0 w-full opacity-20 hidden md:block"
@@ -34,12 +37,12 @@ function RoadMapActivations() {
           </p>
         </div>
 
-        <div className="grid grid-cols-[653px,auto] gap-[86px] mt-[55px]">
+        <div className="grid grid-cols-1 lg:grid-cols-[653px,auto] gap-[86px] mt-[55px]">
           <ul className="space-y-5">
             {roadMapSectionData.map(({ lineThrow, percentage, text }, i) => {
               return (
                 <li key={i} className="flex items-start gap-11">
-                  <p className="text-primary text-[13px] font-semibold leading-[150%]">
+                  <p className="text-primary text-[13px] font-semibold font-montserrat italic leading-[150%]">
                     {percentage}%
                   </p>
                   <p
@@ -55,7 +58,7 @@ function RoadMapActivations() {
             })}
           </ul>
 
-          <div>
+          <div className="hidden lg:block">
             <Image
               src="/img/road_map_image.png"
               alt="road map image"
@@ -64,6 +67,8 @@ function RoadMapActivations() {
             />
           </div>
         </div>
+
+        <div className="border-b border-white/40 mt-[38px] md:hidden"></div>
       </div>
     </section>
   );
