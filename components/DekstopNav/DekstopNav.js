@@ -1,7 +1,9 @@
 import React from "react";
 import { dekstopItems } from "../../constant";
+import { useOpeConnectWalletModal } from "../../state";
 
 function DekstopNav({ onClick }) {
+  const [, setOpen] = useOpeConnectWalletModal();
   return (
     <>
       <ul className="flex flex-col items-end md:flex-row md:items-center gap-4 md:gap-12 pr-6 md:pr-0">
@@ -20,7 +22,10 @@ function DekstopNav({ onClick }) {
 
       <div className="flex justify-end md:inline-block pr-6 md:pr-0 mt-4 mb-8 md:m-0">
         <button
-          onClick={onClick}
+          onClick={() => {
+            onClick && onClick();
+            setOpen(true);
+          }}
           className="bg-primary font-montserrat text-black px-[18px] py-[14px] text-xs font-semibold leading-[15px] rounded-md uppercase"
         >
           Connect wallet
