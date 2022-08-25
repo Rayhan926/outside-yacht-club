@@ -3,6 +3,7 @@ import React from "react";
 import { IoCloseSharp } from "react-icons/io5";
 import cx from "classnames";
 import { useOpeConnectWalletModal } from "../../state";
+import { TbArrowUpRight } from "react-icons/tb";
 
 const wallets = [
   {
@@ -65,13 +66,17 @@ const ConnectWalletModal = () => {
                 <div className="max-w-[35px] md:max-w-[50px]">
                   <Image src={iconSrc} alt={name} width={50} height={50} />
                 </div>
-                <div className="">
+                <div>
                   <h4 className="text-lg md:text-[24px] font-montserrat text-black font-bold">
                     {name}
                   </h4>
                   <p className="text-sm md:text-base text-black font-open-sans">
                     {desc}
                   </p>
+                </div>
+
+                <div className="ml-auto text-black">
+                  <TbArrowUpRight className="w-6 h-6 md:w-7 md:h-7" />
                 </div>
               </div>
             ))}

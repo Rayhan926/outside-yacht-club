@@ -52,3 +52,7 @@ html {
 .cubic_bounce {
   transition-timing-function: cubic-bezier(0.02, 1.11, 0.4, 1.11);
 }
+
+img {
+  @apply select-none;
+}
