@@ -3,6 +3,7 @@ import { dekstopItems } from "../../constant";
 import { useOpeConnectWalletModal } from "../../state";
 import cx from "classnames";
 import { useRouter } from "next/router";
+import Link from "next/link";
 function DekstopNav({ onClick }) {
   const router = useRouter();
   const [, setOpen] = useOpeConnectWalletModal();
@@ -13,16 +14,17 @@ function DekstopNav({ onClick }) {
           const isActive = router.pathname === url;
           return (
             <li key={i} className="group">
-              <a
-                onClick={onClick}
-                href={url}
-                className={cx(
-                  "uppercase leading-[15px] font-medium text-xs italic duration-100 group-hover:text-primary",
-                  isActive ? "text-primary" : "text-white ",
-                )}
-              >
-                {text}
-              </a>
+              <Link href={url}>
+                <a
+                  onClick={onClick}
+                  className={cx(
+                    "uppercase leading-[15px] font-medium text-xs italic duration-100 group-hover:text-primary",
+                    isActive ? "text-primary" : "text-white ",
+                  )}
+                >
+                  {text}
+                </a>
+              </Link>
             </li>
           );
         })}
