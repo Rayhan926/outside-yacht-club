@@ -1,4 +1,4 @@
-import ConnectWalletModal from "../components/ConnectWalletModal/ConnectWalletModal";
+import ConnectWalletModal from "../components/ConnectWalletModal";
 import "../styles/globals.css";
 
 function MyApp({ Component, pageProps }) {

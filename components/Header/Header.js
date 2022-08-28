@@ -9,7 +9,7 @@ function Header() {
   const [isOpenMobileNav, setIsOpenMobileNav] = useState(false);
   return (
     <div>
-      <header className="container flex justify-between items-center py-[13px] md:py-[23px]">
+      <header className="container flex justify-between items-center py-[13px] md:py-5">
         <div className="max-w-[100px] md:max-w-[177px]">
           <Link href={"/"}>
             <a>

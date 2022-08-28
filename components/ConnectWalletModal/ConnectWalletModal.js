@@ -5,7 +5,7 @@ import cx from "classnames";
 import { useOpeConnectWalletModal } from "../../state";
 import { TbArrowUpRight } from "react-icons/tb";
 
-const wallets = [
+export const wallets = [
   {
     iconSrc: "/img/metamask.png",
     name: "Metamask",

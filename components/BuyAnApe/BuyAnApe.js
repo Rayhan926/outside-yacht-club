@@ -16,10 +16,9 @@ function BuyAnApe() {
       >
         <div className="container md:pl-[180px] flex items-center flex-col md:flex-row justify-between">
           <div className="md:w-[473px] space-y-[13px] text-center md:text-left">
-            <h2 className="text-black title_lg">buy an ape</h2>
+            <h2 className="text-black title_lg">Follow us</h2>
             <p className="body_text text-black">
-              The initial sale has sold out. To get your Bored Ape, check out
-              the collection on OpenSea.
+              You now have the time to join us in our community
             </p>
           </div>
 

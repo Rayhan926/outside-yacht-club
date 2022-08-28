@@ -6,7 +6,7 @@ function TheBathroom() {
     <section className="mb-[75px] md:mb-[130px]">
       <div className="container pt-[65px] grid grid-cols-1 md:grid-cols-[725px,auto] gap-11 md:gap-[240px]">
         <div className="space-y-[15px]">
-          <h2 className="title_lg">The BATHROOM</h2>
+          <h2 className="title_lg">The Housewell</h2>
           <p className="body_text">
             The BAYC Bathroom will become operational once the presale period is
             over. It contains a canvas accessible only to wallets containing at
@@ -26,10 +26,10 @@ function TheBathroom() {
 
         <div className="md:max-w-[206px] flex justify-center md:block">
           <Image
-            src="/img/commet.png"
+            src="/img/house-well.png"
             alt="Commet image"
-            width={206}
-            height={324}
+            width={246}
+            height={338}
             quality={100}
           />
         </div>

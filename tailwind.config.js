@@ -19,7 +19,7 @@ module.exports = {
       },
       screens: {
         maxmd: { max: "767px" },
-        maxxs: { max: "380px" },
+        maxxs: { max: "400px" },
       },
     },
   },

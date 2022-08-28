@@ -39,6 +39,9 @@
     background-size: "cover";
     background-repeat: "no-repeat";
   }
+  .btn_shadow {
+    box-shadow: 0px 4px 22px rgba(255, 242, 77, 0.3);
+  }
 }
 
 body {
@@ -55,4 +58,24 @@ html {
 
 img {
   @apply select-none;
+}
+
+input[type="number"]::-webkit-inner-spin-button,
+input[type="number"]::-webkit-outer-spin-button {
+  opacity: 1;
+}
+
+.animate_slide_in {
+  animation: animate_slide_in 0.2s ease-in;
+}
+
+@keyframes animate_slide_in {
+  from {
+    transform: translateY(20px);
+    opacity: 0;
+  }
+  to {
+    transform: translateY(0px);
+    opacity: 1;
+  }
 }

@@ -10,12 +10,12 @@ function RiseOfOutside() {
             <p>Rise of the</p> outside yach club
           </h2>
           <p className="body_text">
-            BAYC is a collection of 10,000 Bored Ape NFTs—unique digital
-            collectibles living on the Ethereum blockchain. Your Bored Ape
-            doubles as your Yacht Club membership card, and grants access to
-            members-only benefits, the first of which is access to THE BATHROOM,
-            a collaborative graffiti board. Future areas and perks can be
-            unlocked by the community through roadmap activation.
+            OSYC is a collection of 10,000 Ape —unique digital collectibles
+            living on the Ethereum blockchain. Your Ape doubles as your Outside
+            Yacht Club membership card, and grants access to members-only
+            benefits, the first of which is access to THE BATHROOM, a
+            collaborative graffiti board. Future areas and perks can be unlocked
+            by the community through roadmap activation.
           </p>
         </div>
 

@@ -9,9 +9,9 @@ function WellcomeToTheClub() {
       <div className="container">
         <div className="space-y-[50px] md:space-y-[75px] pb-[65px]">
           <div className="space-y-[15px] md:w-[750px]">
-            <h2 className="title_lg">Welcome to the club</h2>
+            <h2 className="title_lg">WELCOME TO THE OSYC</h2>
             <p className="body_text">
-              When you buy a Bored Ape, you’re not simply buying an avatar or a
+              When you buy Ape, you’re not simply buying an avatar or a
               provably-rare piece of art. You are gaining membership access to a
               club whose benefits and offerings will increase over time. Your
               Bored Ape can serve as your digital identity, and open digital

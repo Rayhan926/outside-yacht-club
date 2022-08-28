@@ -1,19 +1,23 @@
 export const dekstopItems = [
   {
     text: "BUY AN APE",
-    url: "#buy-an-ape",
+    url: "/#buy-an-ape",
   },
   {
     text: "ROADMAP",
-    url: "#roadmap",
+    url: "/#roadmap",
   },
   {
     text: "TEAM",
-    url: "#team",
+    url: "/#team",
   },
   {
     text: "Gallery",
     url: "#",
+  },
+  {
+    text: "Minting",
+    url: "/mint",
   },
 ];
 export const wellcomeToTheClubData = [
